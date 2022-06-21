@@ -1,6 +1,6 @@
 <?php
 
-namespace Pallares\LaravelNuxt;
+namespace Digitalion\LaravelNuxt;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,6 +13,6 @@ class LaravelNuxtServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/nuxt.php', 'nuxt');
+        $this->mergeConfigFrom(__DIR__ . '/../config/nuxt.php', 'nuxt');
     }
 }
